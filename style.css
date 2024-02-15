@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Playfair+Display&display=swap');
+
+body{
+    background-color: #f3f0eb;
+    width: 100wv;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Delicious Handrawn';
+    font-size: 50px;
+    font-weight: lighter;
+}
+h2,p{
+    font-family: 'Playfair Display', serif;
+}
+.page{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+}
+.logo{
+    width: 210px;
+    height: 100%;
+    background-image: url('logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.heading_left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+}
+.heading_right{
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+    padding: 1Opx;
+    justify-items: center;
+    align-items: center;
+    display:grid;
+    border-top: solid 2px black;
+}
+.slope{
+    width: 90%;
+    height: auto;
+    border: solid 2px black;
+    margin-top: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 5px;
+}
+.text{
+    background-color: whitesmoke; 
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    border-right: none;
+    border-bottom: solid 1px black;
+}
+.illus{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke; 
+}
+#rally{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    height: auto;
+}
+@media only screen and (min-width: 640px) {
+    #rally{
+        width: 50%;
+    }
+    .slope{
+        display: flex;
+    }
+    .text{
+        border-bottom: none;
+        border-right: solid 1px black;
+    }
+    #images{
+        margin-top: 0px;
+    }
+}
+#images{
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+}
+.nav_container{
+    height: 30px;
+    width: 30px;
+    background-image: url('twitter.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:contain; 
+}
